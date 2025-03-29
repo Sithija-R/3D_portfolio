@@ -21,10 +21,10 @@ const Navbar = () => {
           }}
           className="text-white text-2xl font-bold "
         >
-          <p className="text-[2vh] cursor-pointer font-semibold">
+          <p className="text-lg cursor-pointer font-semibold">
             Sithija Ruwan
           </p>
-          <p className="text-[2vh] cursor-pointer font-semibold">
+          <p className="text-sm cursor-pointer font-semibold">
             Software Engineer | Designer
           </p>
         </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-cyan-500" : "text-secondary"
-              } hover:text-cyan-500 cursor-pointer`}
+              } hover:text-cyan-500 cursor-pointer font-semibold`}
               onClick={() => {
                 setActive(link.title);
               }}
@@ -60,7 +60,7 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={`font-poppins font-medium cursor-pointer text-[16px]  ${
                     active === link.title ? "text-cyan-500" : "text-secondary"
                   }`}
                   onClick={() => {
