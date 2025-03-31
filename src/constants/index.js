@@ -4,25 +4,29 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+ 
     html,
     css,
     reactjs,
-    redux,
+
     tailwind,
     nodejs,
     mongodb,
-    git,
+ 
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+  
+    nextway,
+    voluntheart,
+    maliciousurl,
+    Python,
+    Java,
+    Springboot,
+    Firebase,
+   
+    Skill,
+    Coding,
+    Projects,
   } from "../assets";
   
   export const navLinks = [
@@ -54,12 +58,29 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Graphic Designer",
       icon: creator,
     },
   ];
   
   const technologies = [
+ 
+    {
+      name: "Python",
+      icon: Python,
+    },
+    {
+      name: "Java",
+      icon: Java,
+    },
+    {
+      name: "Springboot",
+      icon: Springboot,
+    },
+    {
+      name: "Firebase",
+      icon: Firebase,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -72,18 +93,12 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+   
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -96,14 +111,7 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
+   
     {
       name: "figma",
       icon: figma,
@@ -112,153 +120,139 @@ import {
       name: "docker",
       icon: docker,
     },
+   
+    
+  
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "Technical Skills",
       company_name: "Starbucks",
-      icon: starbucks,
+      icon: Coding,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Programming Languages & FrameWorks",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "I possess a strong foundation in programming, with experience in languages such as Java, Python, JavaScript, HTML, and CSS. These skills enable me to develop a diverse array of applications and solutions effectively.​",
+        "Beyond programming, I am proficient in frameworks and libraries including React, React Native, Next.js, Flask, and Spring Boot. These technologies empower me to build web applications, mobile applications, and software that enhances user engagement and performance..​",
+        "My expertise extends to various development tools and methodologies, such as Node.js, Express.js, Agile practices, and development environments like NetBeans, Visual Studio, Visual Studio Code, and IntelliJ. These tools facilitate efficient development processes and high-quality project delivery.​",
+      ]
     },
     {
-      title: "React Native Developer",
+      title: "Projects",
       company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      icon: Projects,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Softwares & Web Applications",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I developed NextWay, a mobile app that provides AI-powered career guidance, university exploration, and multilingual support to help Sri Lankan students make informed education and career decisions.",
+        "I created VoluntHeart, a platform that connects volunteers with organizations, streamlining event management and real-time communication to enhance community engagement.",
+        "I built a Malicious URL Prediction Web App, integrating machine learning models with a Next.js frontend and Flask backend to detect and classify malicious URLs, improving online security.",
+        
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Interests",
+      company_name: "Shopify",
+      icon: Skill,
+      iconBg: "#383E56",
+      date: "Tech & Design Passion",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I am passionate about web development, mobile app development, and machine learning, constantly learning and contributing to the developer community on Stack Overflow.",
+        "Beyond my technical pursuits, I am passionate about graphic design, which allows me to express creativity and enhance user experiences. This interest helps me balance technical expertise with artistic innovation, contributing to my growth as a well-rounded individual.",
+        
       ],
     },
+   
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "BSc hons in Software Engineering (3rd Yaer)",
+      name: "Sabaragamuwa University of Sri Lanka",
+      designation: "Undergraduate(2022 - 2026)",
+      company: "",
+      image: "https://www.wemakescholars.com/admin/uploads/providers/3JVNxCbjtw-huBlkXje2sBwXRq-CjNGk.png",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "GCE Advanced Level 2020 - Physical Sciences Stream",
+      name: "Sivali Central College",
+      designation: "Ratnapura",
+      company: "",
+      image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAASFBMVEVHcEx/rTmgtTA4oEoAgISruCrBvRrLwRgGmVUAjmV8rDtYpkOzuh/YxBGktSL1zQD7zgDmyAmOryU+oDFTpSsrnDMYmzZ3qirr7a65AAAAGHRSTlMArr9cFuL//0gtk3j///////////////gnzYOjAAABU0lEQVR4AWXSBZLEIBBAUbQ70srY/W+6kIrW/pLIiwJhFFMuIZRcAdPU9+aclnC0EhEgozAQM0I/mk6cSLk7m6phF2cqJ87AagRHpgDhQkRVMLWeGqjSDSdkNSGBXgMxBSwnrqAqjr7FLMo4nZjI+PU+e6nS+SsFO35eZ9/7SxcyfWYOecfa6F+SjqeeCCc22P+S0dS2aHuBuRrhgaAKIg4dSZXJVQ8MSKpmjQcyIpJ2pB0rmUKTNhBRHAbGHTOjATf2DVsbr+Q5nLc6OwJ31O4AjCkcFRQ27XUEZhaga2TnAig7qrFwDUXysGjGa0hMMt7ZCTiGjMZDS1XnKcwRQaQJ4lLC6qp1DqNFfvs6E6jb00qT41cmt3F5L64bLWiez/Vl2KAueZ7LnJcKYzjK+SvV5fUTVHcA/H0a1tN6K1hr75fI5/chhzU8ywnIXZ0l5bD3B587GbiEcbdoAAAAAElFTkSuQmCC",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+ 
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NextWay",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Mobile application designed to empower Sri Lankan students by providing smart, data-driven solutions for their academic and career decisions.",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nextway,
+      source_code_link: "https://github.com/Sithija-R/NextWay_Mobile_App.git",
+    },
+    {
+      name: "VoluntHeart",
+      description:
+        "A web platform that simplifies connecting volunteers with organizations provides an easy-to-use interface for both parties to find and manage volunteer opportunities.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "springboot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: voluntheart,
+      source_code_link: "https://github.com/Sithija-R/Web-Project-VoluntHeart-.git",
     },
     {
-      name: "Job IT",
+      name: "Malicious URL Predictor",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web platform that predicts whether a given URL is malicious or benign, offering users real-time assessments and detailed security insights.",
       tags: [
         {
-          name: "react",
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Scikit-learn",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: maliciousurl,
+      source_code_link: "https://github.com/Sithija-R/Malicious_URL_prediction.git",
     },
   ];
   

@@ -16,6 +16,13 @@
   display: block;
 }
 
+.hero-back{
+  background: url('/src/assets/herobg.png');
+  background-size:  fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -31,11 +38,11 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #5edfff;
+  background: linear-gradient(-90deg, #5edfff 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #5edfff 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -45,6 +52,14 @@
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
+
+.glass-cyan-gradient {
+
+  background: linear-gradient(90.13deg, #99f6ff 1.9%, #00d9ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #99f6ff 1.9%, #00d9ff 97.5%);
+}
+
+
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
@@ -121,6 +136,19 @@
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+.glass-container {
+  position: relative;
+}
+
+.glass-gradient {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%; /* Adjust this to control the gradient height */
+  background: linear-gradient(to top, rgba(0, 217, 255, 0.6) 0%, transparent 100%);
 }
 
 @keyframes mulShdSpin {
@@ -201,12 +229,13 @@
 }
 
 @theme {
-  --color-primary: #050816;
-  --color-secondary: #aaa6c3;
+  --color-primary: #050c16;
+  --color-secondary: #99b6c2;
   --color-tertiary: #151030;
   --color-black-100: #100d25;
   --color-black-200: #090325;
   --color-white-100: #f3f3f3;
+  --color-ccyan: rgba(0, 188, 212, 0.1);
 
   --shadow-card: 0px 35px 120px -15px #211e35;
 
