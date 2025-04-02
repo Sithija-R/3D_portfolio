@@ -15,20 +15,22 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center maz-w-7xl mx-auto">
         <div className="flex gap-2 items-center">
-        <motion.img src={Favicon} alt="logo" className="w-12 h-12  " />
-        <Link
-          to="/"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-          className="text-white text-2xl font-bold "
-        >
-          <p className="text-lg cursor-pointer font-semibold">Sithija Ruwan</p>
-          <p className="text-sm cursor-pointer font-semibold">
-            Software Engineer | Designer
-          </p>
-        </Link>
+          <motion.img src={Favicon} alt="logo" className="w-10 h-10  " />
+          <Link
+            to="/"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+            className="text-white text-2xl font-bold "
+          >
+            <p className="text-lg cursor-pointer font-semibold">
+              Sithija Ruwan
+            </p>
+            <p className="text-sm cursor-pointer font-semibold">
+              Software Engineer | Designer
+            </p>
+          </Link>
         </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">

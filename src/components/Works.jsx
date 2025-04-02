@@ -25,7 +25,7 @@ const ProjectCard = ({
        glareEnable={true}
        glareMaxOpacity={0.25}
        scale={1.002}
-       gyroscope={true}
+      
       
         className='bg-ccyan p-5 rounded-2xl sm:w-[360px] w-full h-full'
       >

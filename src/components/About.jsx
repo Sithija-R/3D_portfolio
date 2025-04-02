@@ -13,8 +13,6 @@ const ServiceCard = ({ index, title, icon }) => (
     glareEnable={true}
     glareMaxOpacity={0.45}
     scale={1.02}
-    gyroscope={true}
-    
     className="xs:w-[250px] w-full"
   >
     <motion.div
@@ -29,28 +27,25 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className="bg-primary rounded-[20px] translate-z-96 py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col bg-gradient-to-t from-cyan-400  to-ccyan to-3%  "
       >
-<motion.img
-  src={icon}
-  alt="web-development"
-  className="w-16 h-16 object-contain"
-  animate={{
-    y: [0, -5, 0], // Floating effect
-  }}
-  whileHover={{
-    scale: 1.2,
-
-  }}
-  transition={{
-    y: {
-      duration: 2,
-      repeat: Infinity,
-      repeatType: "reverse",
-    },
-    scale: { type: "spring", stiffness: 300 },
-  }}
-/>
-
-
+        <motion.img
+          src={icon}
+          alt="web-development"
+          className="w-16 h-16 object-contain"
+          animate={{
+            y: [0, -5, 0], // Floating effect
+          }}
+          whileHover={{
+            scale: 1.2,
+          }}
+          transition={{
+            y: {
+              duration: 2,
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+            scale: { type: "spring", stiffness: 300 },
+          }}
+        />
 
         <h3 className="text-white text-[20px] font-bold text-center translate-z-72">
           {title}

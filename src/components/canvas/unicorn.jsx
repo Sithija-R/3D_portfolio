@@ -101,10 +101,10 @@ const UnicornCanvas = ({ shouldFall }) => {
       ) : (
         <motion.img
           src={profilephoto}
-          alt="Image to show instead of model"
+          alt="Profile"
           style={{
             position: "relative",
-            top: "55%",
+            top: "60%",
             left: "10%",
             maxWidth: "70%",
             maxHeight: "70%",
@@ -112,6 +112,7 @@ const UnicornCanvas = ({ shouldFall }) => {
           }}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
+          whileHover={{ scale: 1.05 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         />
       )}
